@@ -1,0 +1,29 @@
+@use "variables" as v;
+
+/* box */
+
+.con {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: flex;
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: v.$Light-royal-blue;
+        border-radius: 40px;
+        padding: 25px 20px;
+        color: v.$White;
+        text-align: center;
+        max-width: 350px;
+    }
+
+    .rate {
+        background: red;
+        padding: 30px 40px;
+        border-radius: 50%;
+    }
+
+}

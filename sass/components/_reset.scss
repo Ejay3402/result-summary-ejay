@@ -1,0 +1,35 @@
+@use "variables" as v;
+
+/* resets */
+
+*** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html {
+    box-sizing: inherit;
+}
+
+body {
+    background: v.$Pale-blue;
+    font-size: 100%;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    height: 101vh;
+}
+
+button {
+    font: inherit;
+}
+
+a,
+a:hover ,
+a:focus {
+    text-decoration: none;
+}
